@@ -4,7 +4,7 @@ import { Mail, Linkedin, Github, Phone } from "lucide-react";
 
 const Contact = () => {
   return (
-    <div className="min-h-screen bg-[#0f172a] text-gray-300 flex items-center justify-center px-6 py-10">
+    <div className="min-h-screen bg-[#111827] flex items-center justify-center px-6 py-10">
       <div className="w-full max-w-3xl bg-[#1e293b]/60 backdrop-blur-lg rounded-2xl shadow-xl p-10 space-y-6">
         <h1 className="text-3xl font-bold text-white mb-6 text-center">
           Get in Touch

@@ -30,7 +30,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${poppins.variable} antialiased min-h-screen flex flex-col bg-[#0f172a]`}
+        className={`${poppins.variable} antialiased min-h-screen flex flex-col bg-gradient-to-br from-[#0f172a] via-[#1e293b] to-[#334155] text-gray-300`}
       >
         <Navbar />
         <main className="flex-grow">{children}</main>
