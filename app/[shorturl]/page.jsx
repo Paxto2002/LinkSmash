@@ -14,7 +14,7 @@ export default async function URL({ params }) {
   if (doc) {
     redirect(doc.url);
   } else {
-    const fallback = process.env.NEXT_PUBLIC_HOST || "http://localhost:3000";
+    const fallback = "https://linksmash-nu.vercel.app/404";
     console.log("🚨 Redirecting to fallback:", fallback);
     redirect(fallback);
   }
